@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;700;900&display=swap');
+
+/* title */
+.titleBanner {
+  display: flex;
+  justify-content: center;
+  padding: 5vw;
+}
+.titleBanner > h1 {
+  font: 900 5vw Poppins;
+  color: #094101;
+}
+
+/* second navbar */
+#btnradio1 {
+  border: 1px solid #094101
+}
+.btn-outline-success {
+  font: 500 2vw Poppins;
+  color: #094101;
+}
+.col-sm-8 {
+  margin-left: 2vw
+}
+
+/*menu items */

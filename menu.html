@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Menu</title>
+  <!-- bootstrap css -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+  <link rel="stylesheet" href="home.css">
+  <link rel="stylesheet" href="menu.css">
+</head>
+<body>
+  <!-- navbar and title -->
+  <header>
+    <nav class="navbar navbar-expand-lg"> 
+      <div class="container">
+        <a class="navbar-brand" href="#homepage">
+          <img id="logo" src="images/logo.webp" alt="Mang Inasal Logo">
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse tex" id="navbarSupportedContent">
+          <ul class="navbar-nav ms-auto mb-2 mb-lg-0 justify-content-end nav nav-underline">
+            <li class="nav-item">
+              <a class="nav-link" href="index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="menu.html">MENU</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="aboutUs.html">ABOUT US</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="contactUs.html">CONTACT US</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="news">NEWS</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">ORDER NOW</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <div class="titleBanner">
+      <h1>MENU</h1>
+    </div>
+  </header>
+
+  <main class="row">
+    <!-- second navbar -->
+    <section class="secondNavbar col-sm-3">
+      <div class="btn-group-vertical" role="group" aria-label="Vertical radio toggle button group">
+        <input type="radio" class="btn-check" name="vbtn-radio" id="vbtn-radio1" autocomplete="off" checked>
+        <label class="btn btn-outline-success" for="vbtn-radio1">Chicken Inasal</label>
+        <input type="radio" class="btn-check" name="vbtn-radio" id="vbtn-radio2" autocomplete="off" disabled>
+        <label class="btn btn-outline-success" for="vbtn-radio2">Fiesta Group Meals</label>
+        <input type="radio" class="btn-check" name="vbtn-radio" id="vbtn-radio3" autocomplete="off" disabled>
+        <label class="btn btn-outline-success" for="vbtn-radio3">Halo Halo</label>
+        <input type="radio" class="btn-check" name="vbtn-radio" id="vbtn-radio2" autocomplete="off" disabled>
+        <label class="btn btn-outline-success" for="vbtn-radio4">Palabok</label>
+        <input type="radio" class="btn-check" name="vbtn-radio" id="vbtn-radio3" autocomplete="off" disabled>
+        <label class="btn btn-outline-success" for="vbtn-radio5">Grilled Pork</label>
+        <input type="radio" class="btn-check" name="vbtn-radio" id="vbtn-radio2" autocomplete="off" disabled>
+        <label class="btn btn-outline-success" for="vbtn-radio6">Sisig</label>
+        <input type="radio" class="btn-check" name="vbtn-radio" id="vbtn-radio3" autocomplete="off" disabled>
+        <label class="btn btn-outline-success" for="vbtn-radio7">Empanada</label>
+      </div>
+    </section>
+
+    <!-- menu item -->
+    <section class="col-sm-8">
+      <div class="cardContainer">
+        <div class="card" style="width: 18rem;">
+          <img src="images/c1.webp" class="card-img-top" alt="Checken inasal">
+          <div class="card-body">
+            <p class="card-text cardTitle">
+              Paa Large-PM1
+            </p>
+            <p class="cardSubtitle">
+              Chicken Inasal Paa Large with 1 rice
+            </p>
+          </div>
+        </div>
+        <div class="card" style="width: 18rem;">
+          <img src="images/c2.webp" class="card-img-top" alt="chicken wings inasal">
+          <div class="card-body">
+            <p class="card-text cardTitle">
+              Pecho Large - PM2
+            </p>
+            <p class="cardSubtitle">
+              Chicken Inasal Pecho Large with 1 rice
+            </p>          
+          </div>
+        </div>
+        <div class="card" style="width: 18rem;">
+          <img src="images/c3.webp" class="card-img-top" alt="chicken wings inasal">
+          <div class="card-body">
+            <p id="menuTitle3" class="card-text cardTitle">
+              Paa Large Family Size
+            </p>
+            <p class="cardSubtitle">
+              4 pcs Chicken Inasal Paa Large     
+            </p>   
+          </div>
+        </div>
+      </div>
+      <div class="cardContainer">
+        <div class="card" style="width: 18rem;">
+          <img src="images/c4.webp" class="card-img-top" alt="Checken inasal">
+          <div class="card-body">
+            <p class="card-text cardTitle">
+              Pecho Large Family Size
+            </p>
+            <p class="cardSubtitle">
+              4 pcs Chicken Inasal Pecho Large
+            </p>
+          </div>
+        </div>
+        <div class="card" style="width: 18rem;">
+          <img src="images/c5.webp" class="card-img-top" alt="chicken wings inasal">
+          <div class="card-body">
+            <p class="card-text cardTitle">
+              Pecho Large Buddy Size
+            </p>
+            <p class="cardSubtitle">
+              2 pcs Chicken Inasal Pecho Large
+            </p>          
+          </div>
+        </div>
+        <div class="card" style="width: 18rem;">
+          <img src="images/c6.webp" class="card-img-top" alt="chicken wings inasal">
+          <div class="card-body">
+            <p id="menuTitle3" class="card-text cardTitle">
+              Paa Large Buddy Size
+            </p>
+            <p class="cardSubtitle">
+              2 pcs Chicken Inasal Paa Large     
+            </p>   
+          </div>
+        </div>
+      </div>
+      <div class="cardContainer">
+        <div class="card" style="width: 18rem;">
+          <img src="images/c7.webp" class="card-img-top" alt="Checken inasal">
+          <div class="card-body">
+            <p class="card-text cardTitle">
+              Fiesta Meal Paa Large
+            </p>
+            <p class="cardSubtitle">
+              Chicken Inasal Paa Large with 3 rice, 3 chicken oil, 2 toyomansi and soup
+            </p>
+          </div>
+        </div>
+        <div class="card" style="width: 18rem;">
+          <img src="images/c9.webp" class="card-img-top" alt="chicken wings inasal">
+          <div class="card-body">
+            <p class="card-text cardTitle">
+              Todo Solb Paa Large
+            </p>
+            <p class="cardSubtitle">
+              Chicken Inasal Paa Large with 1 rice, half Palabok and soup
+            </p>          
+          </div>
+        </div>
+        <div class="card" style="width: 18rem;">
+          <img src="images/c10.webp" class="card-img-top" alt="chicken wings inasal">
+          <div class="card-body">
+            <p id="menuTitle3" class="card-text cardTitle">
+              Todo Solb Pecho Large
+            </p>
+            <p class="cardSubtitle">
+              Chicken Inasal Pecho Large with 1 rice, half Palabok and soup    
+            </p>   
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- footer -->
+  <footer class="container-fluid">
+    <p>© 2022 MANG INASAL PHILIPPINES INC.</p>
+  </footer>
+  
+  <!-- bootstrap javascript -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+</body>
+</html>

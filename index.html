@@ -3,40 +3,210 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Project1 - Redesign of Mang Inasal Website</title>
+  <title>Project 1 - Responsive Website Redesign</title>
   <!-- bootstrap css -->
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
-  <link href="style.css">
+  <link rel="stylesheet" href="home.css">
 
 </head>
 <body>
   <!-- navigation -->
-  <header>
-    <nav></nav>
+  <header id="homepage">
+    <nav class="navbar navbar-expand-lg"> 
+      <div class="container">
+        <a class="navbar-brand" href="#">
+          <img id="logo" src="images/logo.webp" alt="Mang Inasal Logo">
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse tex" id="navbarSupportedContent">
+          <ul class="navbar-nav ms-auto mb-2 mb-lg-0 justify-content-end nav nav-underline">
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="index.html">HOME</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="menu.html">MENU</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="aboutUs.html">ABOUT US</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="contactUs.html">CONTACT US</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="news.html">NEWS</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">ORDER NOW</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
   </header>
 
   <main>
     <!-- hero section -->
-    <section></section>
+    <section class="container">
+      <div class="row">
+        <!-- left section -->
+        <div class="col-sm-6 heroLeft">
+          <h1 id="heroTitle">CHICKEN INASAL</h1>
+          <p id="heroSubtitle">2-in-1 sa Laki, Nuot sa Ihaw Sarap! <br>
+            Expertly Grilled, Tagos ang Sarap!</p>
+            <div class="btnContainer">
+              <button id="orderNowBtn" class="heroBtn">Order Now</button>
+              <button id="checkMenuBtn" class="heroBtn"><a class="cMenuBtn" href="menu.html">Check our Menu</a></button>
+            </div>
+        </div>
+        <!-- right section -->    
+        <div class="col-sm-6 rightSection">
+          <div class="row">
+            <div class="col-6 p-3 d-flex justify-content-center">
+              <img class="heroImage" src="images/menu1.webp" alt="chicken inasal picture">
+            </div>
+            <div class="col-6 p-3 d-flex justify-content-center">
+              <img class="heroImage" src="images/menu2.webp" alt="chicken inasal bundle picture">
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-6 p-3 d-flex justify-content-center">
+              <img class="heroImage" src="images/menu3.webp" alt="halo halo picture">
+            </div>
+            <div class="col-6 p-3 d-flex justify-content-center">
+              <img class="heroImage" src="images/menu4.webp" alt="palabok picture">
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
 
     <!-- carousel -->
-    <section></section>
+    <section>
+      <div id="carouselExample" class="carousel slide">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="images/banner1.jpeg" class="d-block w-100" alt="pork bbq">
+          </div>
+          <div class="carousel-item">
+            <img src="images/banner2.jpg" class="d-block w-100" alt="sizzling liempo">
+          </div>
+          <div class="carousel-item">
+            <img src="images/banner3.jpeg" class="d-block w-100" alt="bussy fiesta package">
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </section>
 
     <!-- menu section -->
-    <section></section>
+    <section class="container-fluid section">
+      <div id="menuTitle">Must try!</div>
+      <!-- pictures / used card from bootstrap-->
+      <div class="cardContainer">
+        <div class="card" style="width: 18rem;">
+          <img src="images/menu7.webp" class="card-img-top" alt="Checken empanada">
+          <div class="card-body">
+            <p class="card-text cardTitle">
+              6 pcs Empanada
+            </p>
+            <p class="cardSubtitle">
+              6 pcs Chicken Empanada, available in free special gift box until supplies
+            </p>
+          </div>
+        </div>
+        <div class="card" style="width: 18rem;">
+          <img src="images/menu5.webp" class="card-img-top" alt="chicken and pork bbq meal">
+          <div class="card-body">
+            <p class="card-text cardTitle">
+              Chicken & Pork BBQ
+            </p>
+            <p class="cardSubtitle">
+              3 pcs Chicken Inasal Paa Large, 6 pcs Pork BBQ and Java Rice Platter
+            </p>          
+          </div>
+        </div>
+        <div class="card" style="width: 18rem;">
+          <img src="images/menu6.webp" class="card-img-top" alt="chicken wings inasal">
+          <div class="card-body">
+            <p id="menuTitle3" class="card-text cardTitle">
+              Todo Solb Pecho Large
+            </p>
+            <p class="cardSubtitle">
+              6 pcs Chicken Empanada, available in special gift box     
+          </p>   
+          </div>
+        </div>
+      </div>
+    </section>
 
     <!-- about us -->
-    <section></section>
+    <section class="container-fluid">
+      <div class="row aboutUsSection">
+        <div class="col-sm-6 d-flex justify-content-center">
+          <img class="image" src="images/about1.webp" alt="mang inasal store">
+        </div>
+        <div class="col-sm-6 d-flex flex-column justify-content-center align-items-start">
+          <h1>About Us</h1>
+          <p class="aboutDescription">
+            Mang Inasal, the Philippines' Grill Expert, is known to customers 
+            as the brand that delightfully serves Ihaw-Sarap food and Unli-Saya
+            experience for the past 20 years.
+
+            From a Hiligaynon word for Mr. Barbecue, Mang Inasal was 
+            established on December 12, 2003 in Iloilo City by Edgar “Injap”
+            Sia II. Apart from the delicious, 
+            craveable taste of its Chicken Inasal that has won the hearts of 
+            Filipinos, Mang Inasal was also the first to offer unlimited rice. 
+            Over the years, the brand has garnered numerous awards as a 
+            fast-growing local food company, an outstanding quick service 
+            restaurant (QSR), and an excellent Filipino franchise.
+          </p>
+          <button class="heroBtn more"><a class="cMenuBtn" href="aboutUs.html">Read more</a></button>
+        </div>
+      </div>
+    </section>
 
     <!-- news -->
-    <section></section>
+    <section class="container-fluid">
+      <div class="row newsSection flex-row-reverse">
+        <div class="col-sm-6 d-flex justify-content-center">
+          <img class="image" src="images/news1.webp" alt="store">
+        </div>
+        <div class="col-sm-6 d-flex flex-column justify-content-center align-items-start">
+          <h1>Latest News</h1>
+          <h4>Make grandparents feel special this week with Mang Inasal Palabok treats</h4>
+          <p class="aboutDescription">
+            Mang Inasal, the Philippines' Grill Expert, is known to customers 
+            as the brand that delightfully serves Ihaw-Sarap food and Unli-Saya
+            experience for the past 20 years.
 
-    <!-- contact us -->
-    <section></section>
-  </main>
+            From a Hiligaynon word for Mr. Barbecue, Mang Inasal was 
+            established on December 12, 2003 in Iloilo City by Edgar “Injap”
+            Sia II. Apart from the delicious, 
+            craveable taste of its Chicken Inasal that has won the hearts of 
+            Filipinos, Mang Inasal was also the first to offer unlimited rice. 
+            Over the years, the brand has garnered numerous awards as a 
+            fast-growing local food company, an outstanding quick service 
+            restaurant (QSR), and an excellent Filipino franchise.
+          </p>
+          <button class="heroBtn more"><a class="cMenuBtn" href="news.html">Read more</a></button>
+        </div>
+      </div>
+    </section>
 
   <!-- footer -->
-  <footer></footer>
+  <footer class="container-fluid">
+    <p>© 2022 MANG INASAL PHILIPPINES INC.</p>
+  </footer>
   
   <!-- bootstrap javascript -->
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>

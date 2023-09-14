@@ -1,0 +1,169 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;700;900&display=swap');
+
+/* Navbar */
+.navbar {
+  background-color: #094101;
+}
+#logo,
+#logo:visited {
+  border: none;
+  width: 8vw;
+}
+.nav-item,
+.nav-link,
+.nav-link:hover {
+  color: white;
+  font: 700 90% Poppins;
+}
+.nav-link:active,
+.nav-link:visited,
+.nav-link:focus {
+  color: white;
+}
+.navbar-toggler {
+  filter: invert(100%);
+}
+
+/* hero Section */
+.heroSection {
+  padding: 4vw
+}
+/* left section */
+.heroLeft {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: start;
+}
+#heroTitle {
+  font: 900 4vw Arial;
+  color: #094101;
+}
+#heroSubtitle {
+  font: 400 1.5vw poppins;
+  color: #094101;
+}
+.btnContainer {
+  margin-top: 4vw;
+  display: flex;
+  gap: 1vw;
+}
+.heroBtn {
+  font: 700 2vw poppins;
+  color: #094101;
+  width: fit-content;
+  height: 4vw;
+  border-radius: 1vw;
+  padding-left: 2vw;
+  padding-right: 2vw;
+}
+.cMenuBtn {
+  color: #094101;
+  text-decoration: none;
+}
+.heroBtn:hover {
+  box-shadow: 2px 5px 5px #09410150;
+}
+.heroBtn:active {
+  opacity: .5
+}
+#checkMenuBtn,
+.more {
+  font: 700 1.5vw poppins;
+  background-color: white;
+}
+#orderNowBtn {
+  background-color: #094101;
+  color: white;
+  font: 500 2vw poppins;
+}
+
+/* right section */
+.heroImage {
+  width: 100%;
+}
+.rightSection {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+/* menu section */
+#menuTitle {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font: 900 3vw Arial;
+  height: 5vw;
+  background-color: #094101;
+  color: white;
+  border-radius: 1vw;
+}
+.section {
+  background-color: #f7f7f7;
+  padding: 5vw;
+
+}
+.cardContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  gap: 2vw;
+  padding: 3vw 0;
+}
+.cardTitle {
+  font: 700 3vw poppins;
+  color:#094101
+}
+.cardSubtitle {
+  font: 400 2vw poppins;
+  color: #094101;
+}
+.card {
+  height: 53vw;
+}
+
+/* About us section */
+.image {
+  width: 100%;
+  object-fit: cover;
+}
+.aboutUsSection {
+ padding: 3vw 5vw;
+ font-family: poppins;
+}
+
+/* news section */
+.newsSection {
+  padding: 3vw 5vw;
+  background-color: #f7f7f7;
+  font-family: poppins;
+}
+
+/* footer */
+footer {
+  background-color: #094101;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+footer > p{
+  font-style: italic;
+  color: #FEEF4E;
+  font: 500 1vw poppins;
+  margin: 0;
+  padding: 1vw
+}
+
+
+@media screen and (max-width: 576px) {
+  .heroLeft {
+    justify-content: center;
+    align-items: center;
+  }
+  .card {
+    height: 64vw;
+  }
+}

@@ -1,0 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;700;900&display=swap');
+
+body {
+  color:#094101;
+}
+.flex-column > label {
+  font: 700 3vw poppins;
+}
+.flex-column > span {
+  font: 400 3vw poppins;
+}
+.flex-column > h1 {
+  font: 900 4vw poppins;
+}
