@@ -2,6 +2,7 @@
 
 body {
   color:#094101;
+  overflow-x: hidden;
 }
 .flex-column > label {
   font: 700 3vw poppins;
