@@ -23,7 +23,11 @@ body {
   color: #094101;
 }
 .col-sm-8 {
-  margin-left: 2vw
+  /* margin-left: 2vw; */
+  padding-right: 0
+}
+.secondNavbar {
+  padding-right: 0;
 }
 
 /*menu items */
