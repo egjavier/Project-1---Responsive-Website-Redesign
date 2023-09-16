@@ -52,7 +52,7 @@ body {
   gap: 1vw;
 }
 .heroBtn {
-  font: 700 2vw poppins;
+  font: 700 100% poppins;
   color: #094101;
   width: fit-content;
   height: 4vw;
@@ -155,7 +155,7 @@ footer {
 footer > p{
   font-style: italic;
   color: #FEEF4E;
-  font: 500 1vw poppins;
+  font: 500 100% poppins;
   margin: 0;
   padding: 1vw
 }
@@ -168,5 +168,9 @@ footer > p{
   }
   .card {
     height: 64vw;
+  }
+  .heroBtn, .more {
+    font-size: 5vw;
+    height: fit-content;
   }
 }
